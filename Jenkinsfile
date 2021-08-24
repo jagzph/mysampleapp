@@ -5,6 +5,7 @@ pipeline {
         stage('DEV') {
             steps {
                 echo 'Development'
+                input 'Enter Name'
             }
         }
         stage('TEST') {
